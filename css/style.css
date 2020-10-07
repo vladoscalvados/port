@@ -1,0 +1,95 @@
+*,
+*:after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: 'Roboto', sans-serif; }
+
+a {
+  text-decoration: none; }
+
+.github a {
+  color: mediumspringgreen; }
+
+h2 {
+  text-align: center;
+  transition: .5s; }
+  h2:hover {
+    color: mediumspringgreen; }
+
+p {
+  margin: 15px 0;
+  font-size: 18px;
+  text-align: center; }
+
+section {
+  max-width: 1200px;
+  margin: 0 auto; }
+
+.header {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+  align-items: center; }
+  .header-logo img {
+    width: 180px;
+    border-radius: 5px; }
+  .header-desc {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px; }
+
+.section-about-me {
+  margin-top: 20px;
+  padding: 30px; }
+  .section-about-me__title {
+    font-size: 26px;
+    color: #000;
+    text-align: center;
+    transition: .5s; }
+    .section-about-me__title:hover {
+      color: mediumspringgreen; }
+  .section-about-me__content {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; }
+    .section-about-me__content-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 20px; }
+      .section-about-me__content-item img {
+        width: 50px;
+        height: 50px; }
+      .section-about-me__content-item span {
+        margin-top: 15px;
+        font-size: 18px; }
+
+.section-portfolio {
+  margin-top: 20px; }
+  .section-portfolio__title h2 {
+    text-align: center;
+    color: #000;
+    transition: .5s; }
+    .section-portfolio__title h2:hover {
+      color: mediumspringgreen; }
+
+.section-projects {
+  display: flex;
+  flex-wrap: wrap; }
+  .section-projects a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px; }
+  .section-projects__item {
+    margin: 10px 20px;
+    display: flex;
+    flex-direction: column; }
+    .section-projects__item img {
+      width: 360px;
+      height: 220px;
+      border-radius: 10px; }
